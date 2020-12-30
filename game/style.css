@@ -32,6 +32,31 @@ body{
   img {
     border: 5px solid rgb(34, 33, 33);
   }
+  a {
+    text-decoration: none;
+    font-family: 'Baloo Tamma', cursive;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .next {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
   /*SG = style grid*/
   .SG{
     margin: 0;
