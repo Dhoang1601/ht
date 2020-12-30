@@ -36,6 +36,11 @@ body{
     text-align: center;
     font-family: 'Baloo Tamma', cursive;
   }
+  img {
+    border-radius: 50%;
+    width: 145px;
+    height: 130px;
+  }
 
 
   /*SG = style grid*/
@@ -53,12 +58,12 @@ body{
   .SG .sgLi:hover{
     box-shadow:0 5px 10px rgba(0,0,0,.15);}
   .SG .box{
-    width: 120%;
+    width: 100%;
     height: 100vh;
     padding: 1% 2%;
     background: #fff;
     min-height: 220px;
-    max-height: 260px;
+    max-height: 400px;
     box-sizing: border-box;
   }
   

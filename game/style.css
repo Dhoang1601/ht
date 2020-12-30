@@ -29,6 +29,9 @@ body{
     letter-spacing: 1px;
     font-family: 'Raleway', serif;
   }
+  img {
+    border-radius: 50%;
+  }
   /*SG = style grid*/
   .SG{
     margin: 0;
