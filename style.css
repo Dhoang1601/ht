@@ -3,17 +3,17 @@ div.a {
   font-family: 'Baloo Tamma', cursive;
 }
 
-body{
+body{ 
     padding: 0 2%;
     color: #2e3e50;
-    background: #d8dddd;
+    background: #bbb1b1;
   }
   .X{
     margin: auto;
     padding: 1% 2%;
     max-width: 1440px;
     border-radius: 5px;
-    background: #ecf0f1;
+    background: #f6f6f7;
     box-shadow: 0 2px 6px 0 rgba(0,0,0, .3);
   }
   h1,h2,h3{
@@ -61,7 +61,7 @@ body{
     width: 100%;
     height: 100vh;
     padding: 1% 2%;
-    background: #fff;
+    background: rgb(248, 248, 248);
     min-height: 220px;
     max-height: 400px;
     box-sizing: border-box;
