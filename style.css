@@ -28,6 +28,16 @@ body{
     letter-spacing: 1px;
     font-family: 'Raleway', serif;
   }
+  p {
+    text-align: center;
+    font-family: 'Baloo Tamma', cursive;
+  }
+  a {
+    text-align: center;
+    font-family: 'Baloo Tamma', cursive;
+  }
+
+
   /*SG = style grid*/
   .SG{
     margin: 0;
