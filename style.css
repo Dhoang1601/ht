@@ -53,7 +53,7 @@ body{
   }
   .SG .sgLi{
     min-width: 24%;
-    margin: 0% .100%;
+    margin: 1% .100%;
     display: inline-flex;
     box-shadow: 0 2px 4px rgba(32, 0, 0, 0.2);
   }
