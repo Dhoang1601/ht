@@ -1,21 +1,20 @@
-
-
-div.a {
-  text-align: center;
-  font-family: 'Baloo Tamma', cursive;
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
-
-body{ 
+body{
     padding: 0 2%;
     color: #2e3e50;
-    background: #bbb1b1;
+    background: #d8dddd;
   }
   .X{
     margin: auto;
     padding: 1% 2%;
     max-width: 1440px;
     border-radius: 5px;
-    background: #f6f6f7;
+    background: #ecf0f1;
     box-shadow: 0 2px 6px 0 rgba(0,0,0, .3);
   }
   h1,h2,h3{
@@ -30,47 +29,12 @@ body{
     letter-spacing: 1px;
     font-family: 'Raleway', serif;
   }
-  p {
-    text-align: center;
-    font-family: 'Baloo Tamma', cursive;
-  }
-  a {
-    text-align: center;
-    font-family: 'Baloo Tamma', cursive;
-  }
   img {
-    border-radius: 50%;
-    width: 145px;
-    height: 130px;
+    border: 5px solid rgb(34, 33, 33);
   }
-
-
-  /*SG = style grid*/
-  .SG{
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
-  .SG .sgLi{
-    min-width: 24%;
-    margin: 1% .100%;
-    display: inline-flex;
-    box-shadow: 0 2px 4px rgba(32, 0, 0, 0.2);
-  }
-  .SG .sgLi:hover{
-    box-shadow:0 5px 10px rgba(0, 0, 0, 0.15);}
-  .SG .box{
-    width: 100%;
-    height: 110vh;
-    padding: 3% 2%;
-    background: rgb(255, 253, 253);
-    min-height: 400px;
-    max-height: 400px;
-    box-sizing: border-box;
-  }
-
   a {
     text-decoration: none;
+    font-family: 'Baloo Tamma', cursive;
     display: inline-block;
     padding: 8px 16px;
   }
@@ -93,7 +57,29 @@ body{
   .round {
     border-radius: 50%;
   }
-
+  /*SG = style grid*/
+  .SG{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  .SG .sgLi{
+    min-width: 24%;
+    margin: 2% .35%;
+    display: inline-flex;
+    box-shadow: 0 2px 4px rgba(0,0,0, .2);
+  }
+  .SG .sgLi:hover{
+    box-shadow:0 5px 10px rgba(0,0,0,.15);}
+  .SG .box{
+    width: 120%;
+    height: 100vh;
+    padding: 1% 2%;
+    background: #fff;
+    min-height: 220px;
+    max-height: 260px;
+    box-sizing: border-box;
+  }
   
   /*Styles */
   .df{list-style-type: disc;}
